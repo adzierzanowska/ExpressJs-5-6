@@ -1,0 +1,17 @@
+doctype html
+html
+    head
+        title="Login App"
+        link(href='https://fonts.googleapis.com/css?family=Montserrat:300,400,600', rel='stylesheet')
+        link(rel='stylesheet', type='text/css', href='/styles/first-template.css')
+
+    body
+        div.signIn
+            h1.header This is a Google login app
+            h3.text You need to sign in so you can see what's on the other side! Good luck!
+
+            form(action="/", method="GET")
+                a.button(href="/auth/google") Sign in
+
+
+
